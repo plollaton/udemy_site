@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Curso Completo do Desenvolvedor Web</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  </head>
+  <body>
+    <form method="POST" action="form.php">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" class="form-control" required placeholder="Digite seu nome">
+      </div>
+      <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" class="form-control" required placeholder="seu@email.com">
+      </div>
+      <div class="form-group">
+            <label for="date">Nascimento</label>
+            <input type="date" name="date" id="date" class="form-control" required min="2017-01-01" max="2017-12-31">
+      </div>
+      <div class="form-group">
+        <label>Sexo</label>
+        <input type="radio" name="sexo" id="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="Feminino" checked>
+        <label for="Feminino">Feminino</label>
+      </div>
+      <div class="form-group">
+          <label for="li">Li o contrato</label>
+          <input type="checkbox" name="li" id="li" required checked>
+      </div>
+      <div class="form-group">
+          <label for="volume">volume</label>
+          <input type="range" name="volume" id="volume">
+      </div>
+      <div class="form-group">
+          <label for="meter">Bateria</label>
+          <meter min="0" max="100" value="40" low="50"></meter>
+      </div>
+      <div class="form-group">
+          <label for="progress">Carregando</label>
+          <progress min="0" max="100" value="60"></progress>
+      </div>
+      <div class="form-group">
+          <label for="ano">Ano fabricação</label>
+          <input type="number" name="ano" id="ano" class="form-control">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </form>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>  
+  </body>
+</html>
