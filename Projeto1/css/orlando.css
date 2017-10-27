@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open_sans/openSans-Regular.ttf");
+  font-size: 1em;
+}
+
 header{
   width: 100%;
   height: 150px;
@@ -17,7 +23,7 @@ header .header-black li {
   background-image: url("../img/clubs.png");
   background-repeat: no-repeat;
   display: inline-block;
-  margin: 4px 8px;
+  margin: 4px 4px;
 }
 
 header .header-black li.club-01{
@@ -97,15 +103,15 @@ header .header-black li.club-19{
 }
 
 header .header-black li.club-20{
-  background-position: -996px 0px;
+  background-position: -903px 0px;
 }
 
 header .header-black li.club-21{
-  background-position: -1025px 0px;
+  background-position: -951px 0px;
 }
 
 header .header-black li.club-22{
-  background-position: -1055px 0px;
+  background-position: -999px 0px;
 }
 
 header .header-black li a{
@@ -116,5 +122,54 @@ header .header-black li a{
 
 header #logotipo{
   position: absolute;
-  top: -20px;
+  top: 20px;
+}
+
+#menu{
+  margin: 12px 0px;
+}
+
+#menu li{
+  display: inline-block;
+  font-family: "OpenSans";
+}
+
+#menu li.search{
+  width: 232px;
+}
+
+#menu li.search input{
+  background-color: #5C2D90;
+  color: #FFFFFF;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+}
+
+#menu li.search input::-webkit-input-placeholder{
+  color: #FFFFFF;
+}
+
+#menu li.search button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 3px;
+  top: 7px;
+}
+
+#menu li.search button i{
+  font-size: 16px;
+  color: rgba(255,255,255, .5);
+}
+
+#menu li a{
+  color: #FFFFFF;
+  size: 16px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+#menu li.search .input-group{
+  top: 8px;
 }
