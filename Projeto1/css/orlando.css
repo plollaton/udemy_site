@@ -1,11 +1,11 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/open_sans/OpenSans-Regular.ttf");
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
   font-size: 1em;
 }
 @font-face {
-  font-family: "OpenSans-light";
-  src: url("../fonts/open_sans/OpenSans-Light.ttf");
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
   font-size: 1em;
 }
 
@@ -221,7 +221,7 @@ header #logotipo{
   text-align: center;
 }
 #news hr{
-  border: #FDE192 solid 2px;
+  border: #FDE192 solid 8px;
   width: 200px;
   margin: 0 auto;
 }
@@ -250,10 +250,12 @@ header #logotipo{
 #estatisticas p{
   color: #FDE092;
   text-transform: uppercase;
-  font-family: "OpenSans-light";
+  font-family: "OpenSans-Light";
   font-size: 64px;
+  margin-top: 36px;
 }
-#estatisticas p{
+#estatisticas p small{
   color: #FFFFFF;
   font-size: 24px;
+  display: block;
 }
